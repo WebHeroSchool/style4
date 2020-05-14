@@ -1,12 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 body {
   background-color:aqua;
   border:5px ridge brown;
   border-radius: 5%;
   cursor: pointer;
+  font-family:Pangolin;
 }
 
 .header__title {
   text-indent: 20px;
+  font-family:"Balsamiq Sans";
+  font-style: italic;
 } 
 
 .section__iteams {
@@ -20,6 +25,7 @@ body {
 .section__title {
   text-shadow: 2px 2px 5px red;
   margin: 10%;
+  font-family:"Balsamiq Sans";
 }
 
 ul {list-style-type: circle}
@@ -39,6 +45,7 @@ ul {list-style-type: circle}
 
 .footer__titel {
   padding-bottom: 20px;
+  font-family:"Balsamiq Sans";
 }
 
 .footer__text {
